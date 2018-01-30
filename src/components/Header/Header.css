@@ -37,12 +37,13 @@
 
 .LogoContainer {
 
+
 }
 
 .menuButton {
     position:absolute;
     display: none;
-    top:35px;
+    top:18px;
     left:calc(100% - 50px);
 
 }
@@ -142,6 +143,10 @@
         flex-direction: column;
     }
 
+    .LogoContainer {
+        position:relative;
+        left:-25px;
+    }
 
     .menuButton {
         display: inline;
@@ -166,6 +171,11 @@
 
     .HeaderIconRow {
         flex-direction: column;
+    }
+
+    .LogoContainer {
+        position:relative;
+        left: 0;
     }
 
 
