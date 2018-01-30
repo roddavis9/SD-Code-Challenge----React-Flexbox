@@ -1,0 +1,15 @@
+
+#root {
+    display: flex;
+    width:100%;
+
+}
+
+
+.burntOrange {
+    color: #f69a25;
+}
+
+.white {
+    color: #ffffff;
+}

@@ -1,0 +1,323 @@
+.HeaderContainer {
+    display:flex;
+    flex-direction: row;
+    flex:1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    height:100%;
+    max-width:100%;
+    margin: 10px 75px;
+}
+
+.HeaderIconRow {
+    display:flex;
+    flex-direction: row;
+    flex:1;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: flex-end;
+    font-weight:bold;
+    margin-bottom:0;
+    padding-bottom:0;
+
+}
+
+.iconCell {
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+
+.LogoContainer {
+
+}
+
+.menuButton {
+    position:absolute;
+    display: none;
+    top:35px;
+    left:calc(100% - 50px);
+
+}
+
+.NavigationContainer {
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-end;
+    justify-content: center;
+    justify-items: center;
+    height:100%;
+}
+
+.NavLinksRow {
+    display:flex;
+    flex:1;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width:100%;
+    height:100%;
+}
+
+.phoneCell {
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    flex:0 100%;
+    margin-right:30px;
+    min-width: 130px;
+}
+
+.facebook {
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:3px;
+    margin: 3px;
+    z-index: 1;
+    color:#ffffff;
+    background-color: #537bbd;
+    min-width:30px;
+    min-height:30px;
+
+}
+
+
+.twitter {
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:3px;
+    margin: 3px 0 3px 3px;
+    z-index: 1;
+    color:#ffffff;
+    background-color: #78cdf0;
+    min-width:30px;
+    min-height:30px;
+
+}
+
+.youtube {
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:3px;
+    margin: 3px;
+    z-index: 1;
+    color: #ffffff;
+    background-color: #e9654b;
+    min-width:30px;
+    min-height:30px;
+
+}
+
+
+@media (max-width: 575px) {
+    .HeaderContainer {
+        flex-direction: column;
+        margin: 10px 0;
+
+    }
+
+    .HeaderIconRow {
+        flex-direction: column;
+    }
+
+
+    .menuButton {
+        display: inline;
+
+    }
+
+
+    .NavLinksRow {
+        display:none;
+    }
+
+    .phoneCell {
+        margin-right: 6px;
+    }
+}
+
+@media (min-width: 576px) {
+    .HeaderContainer {
+        flex-direction: column;
+        margin: 10px 25px;
+    }
+
+    .HeaderIconRow {
+        flex-direction: column;
+    }
+
+
+    .menuButton {
+        display: inline;
+    }
+
+
+    .NavLinksRow {
+        display:none;
+    }
+
+    .phoneCell {
+        margin-right: 6px;
+    }
+}
+
+@media (min-width: 780px) {
+    .HeaderContainer {
+        flex-direction: row;
+        margin: 10px 25px;
+    }
+
+    .HeaderIconRow {
+        flex-direction: column;
+    }
+
+    .menuButton {
+        display: inline;
+    }
+
+    .NavigationContainer {
+        margin-right:60px;
+    }
+
+    .NavLinksRow {
+        display:none;
+    }
+
+    .phoneCell {
+        margin-right: 6px;
+    }
+}
+
+@media (min-width: 992px) {
+    .HeaderContainer {
+        flex-direction: row;
+        margin: 10px 50px;
+    }
+
+    .HeaderIconRow {
+        flex-direction: row;
+    }
+
+    .menuButton {
+        display: none;
+    }
+
+    .NavigationContainer {
+        margin-right: 0;
+    }
+
+
+    .NavLinksRow {
+        display:flex;
+    }
+
+    .phoneCell {
+        margin-right: 30px;
+    }
+}
+
+@media (min-width: 1171px) {
+    .HeaderContainer {
+        flex-direction: row;
+        margin: 10px 75px;
+
+    }
+
+    .HeaderIconRow {
+        flex-direction: row;
+    }
+
+    .menuButton {
+        display: none;
+    }
+
+    .NavigationContainer {
+        margin-right: 0;
+    }
+
+    .NavLinksRow {
+        display:flex;
+    }
+
+    .phoneCell {
+        margin-right: 30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .HeaderContainer {
+        flex-direction: row;
+        margin: 10px 75px;
+    }
+
+    .HeaderIconRow {
+        flex-direction: row;
+    }
+
+
+    .menuButton {
+        display: none;
+    }
+    .NavigationContainer {
+        margin-right: 0;
+    }
+
+
+    .NavLinksRow {
+        display:flex;
+    }
+
+    .phoneCell {
+        margin-right: 30px;
+    }
+}
+
+@media (min-width: 1360px) {
+    .HeaderContainer {
+        flex-direction: row;
+        margin: 10px 75px;
+    }
+
+    .HeaderIconRow {
+        flex-direction: row;
+    }
+
+    .menuButton {
+        display: none;
+    }
+
+    .NavigationContainer {
+        margin-right: 0;
+    }
+
+
+    .NavLinksRow {
+        display:flex;
+    }
+
+    .phoneCell {
+        margin-right: 30px;
+    }
+}

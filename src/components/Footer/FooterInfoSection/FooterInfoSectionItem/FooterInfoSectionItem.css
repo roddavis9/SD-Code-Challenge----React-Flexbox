@@ -1,0 +1,22 @@
+.FooterSectionItemContainer {
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+
+.FooterSectionItemHeader {
+    display:block;
+    color: #f69a25;
+    font-size: 1.5rem;
+
+}
+
+.sectionItemLink {
+    padding:5px 0;
+    color:#ffffff;
+    font-size:0.8rem
+}

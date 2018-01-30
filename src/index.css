@@ -1,0 +1,20 @@
+
+html {
+  margin:0;
+  padding:0;
+}
+
+body {
+    display:flex;
+    flex:0 0 100%;
+    margin: auto;
+    padding: 0;
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1em;
+    max-width:1366px;
+
+
+}
+
+
+

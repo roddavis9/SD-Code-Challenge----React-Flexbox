@@ -1,0 +1,161 @@
+
+.billboardBackdrop {
+    position:relative;
+    margin:0;
+    padding:0;
+    object-fit: contain;
+    max-width:100%;
+    min-width:220px;
+    z-index: 1;
+    top:-6px;
+}
+
+.BillboardContainer {
+    position:relative;
+    margin:0;
+    padding:0;
+    max-width:1360px;
+    max-height:700px;
+    z-index:1;
+}
+
+.BillboardHeader {
+    position:absolute;
+    top:230px;
+    left:75px;
+    font-size: calc(0.8rem + 2.5vw);
+    white-space: nowrap;
+    font-weight: 500;
+    line-height: 1.1em;
+    color: #ffffff;
+    text-shadow: 2px 2px #444444;
+    z-index:5;
+
+}
+
+.billboardLearnButton {
+    position:absolute;
+    top:320px;
+    left:75px;
+    z-index:15;
+}
+
+.BillboardSubHeader {
+    position: absolute;
+    top: 290px;
+    left:75px;
+    font-size: calc(0.7rem + 1.1vw);
+    font-weight: 200;
+    color: #ffffff;
+    text-shadow: 2px 2px #444444;
+    z-index:5;
+}
+
+
+
+@media (max-width: 575px) {
+    .BillboardHeader {
+        top:30px;
+        left:25px;
+    }
+
+    .billboardLearnButton {
+        top:80px;
+        left:25px;
+    }
+
+    .BillboardSubHeader {
+        top: 60px;
+        left:25px;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .BillboardHeader {
+        top:60px;
+        left:25px;
+    }
+
+    .billboardLearnButton {
+        top:110px;
+        left:25px;
+    }
+
+    .BillboardSubHeader {
+        top: 90px;
+        left:25px;
+    }
+}
+
+@media (min-width: 780px) {
+    .BillboardHeader {
+        top:150px;
+        left:25px;
+    }
+
+    .billboardLearnButton {
+        top:220px;
+        left:25px;
+    }
+
+    .BillboardSubHeader {
+        top: 195px;
+        left:25px;
+    }
+}
+
+@media (min-width: 992px) {
+    .BillboardHeader {
+        top:180px;
+        left:50px;
+    }
+
+    .billboardLearnButton {
+        top:270px;
+        left:50px;
+    }
+
+    .BillboardSubHeader {
+        top: 240px;
+        left:50px;
+    }
+}
+
+@media (min-width: 1171px) {
+    .BillboardHeader {
+        top:180px;
+        left:75px;
+    }
+
+    .billboardLearnButton {
+        top:270px;
+        left:75px;
+    }
+
+    .BillboardSubHeader {
+        top: 240px;
+        left:75px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .BillboardHeader {
+        top:230px;
+        left:75px;
+    }
+
+    .billboardLearnButton {
+        top:320px;
+        left:75px;
+    }
+
+    .BillboardSubHeader {
+        top: 290px;
+        left:75px;
+    }
+}
+
+@media (min-width: 1360px) {
+
+}

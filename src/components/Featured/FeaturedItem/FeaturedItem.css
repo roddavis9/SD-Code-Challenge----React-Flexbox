@@ -1,0 +1,54 @@
+.featuredItemContainer {
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+
+}
+
+.featuredItemInfoRow {
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.FeaturedItemImage {
+    position:relative;
+    z-index: 5;
+    object-fit: contain;
+    width: 100%;
+}
+
+.featuredItemImageRow {
+    display:flex;
+    flex:1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-width:300px;
+}
+
+.itemMake {
+    padding-left: 15px;
+    font-size: .7rem;
+    font-weight:bold;
+}
+
+.itemModel {
+    padding-left: 15px;
+    font-size: 1.2rem;
+    font-weight:bold;
+}
+
+.priceTag {
+    position:relative;
+    top:38px;
+    z-index:10;
+}

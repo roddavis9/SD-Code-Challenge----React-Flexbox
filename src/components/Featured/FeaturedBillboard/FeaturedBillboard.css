@@ -1,0 +1,73 @@
+.FeaturedBillboardContainer {
+    display:flex;
+    flex-direction: row;
+    flex:1;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    height:100%;
+}
+
+.featuredBillboardText {
+    display: block;
+    padding-top:20px;
+    font-size: calc(0.7rem + .4vw);
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 1.6rem;
+}
+
+.featuredBillboardTextContainer {
+    display: block;
+    padding: 20px 0 0 20px;
+    max-width:45%;
+
+}
+
+.featuredBillboardTextHeader {
+    font-size: calc(1.0rem + 1.4vw);
+    font-weight: 500;
+    color: #000000;
+    text-shadow: 2px 2px #ffffff;
+    padding-right:20px;
+    white-space: nowrap;
+
+}
+
+
+.featuredCarImage {
+    position:relative;
+    z-index: 5;
+    object-fit: contain;
+    width:100%;
+    min-width:175px;
+}
+
+@media (max-width: 575px) {
+    .featuredBillboardText {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .featuredBillboardText {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .featuredBillboardText {
+        display: inline;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1171px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
