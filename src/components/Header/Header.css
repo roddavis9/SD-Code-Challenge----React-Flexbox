@@ -131,6 +131,11 @@
 
 }
 
+@media (min-width: 300px) and @media (max-width: 574px){
+    .menuButton {
+        left: calc(100% - 5px);
+    }
+}
 
 @media (max-width: 575px) {
     .HeaderContainer {
@@ -150,7 +155,7 @@
 
     .menuButton {
         display: inline;
-
+        left: calc(100% - 5px);
     }
 
 
@@ -181,6 +186,7 @@
 
     .menuButton {
         display: inline;
+        left: calc(100% - 50px);
     }
 
 
