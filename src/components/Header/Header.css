@@ -44,7 +44,7 @@
     position:absolute;
     display: none;
     top:18px;
-    left:calc(100% - 50px);
+    left:calc(93% - 50px);
 
 }
 
@@ -150,7 +150,7 @@
 
     .menuButton {
         display: inline;
-        left: calc(100% - 10px);
+        left: calc(93% - 10px);
     }
 
 
@@ -181,7 +181,7 @@
 
     .menuButton {
         display: inline;
-        left: calc(100% - 50px);
+        left: calc(93% - 50px);
     }
 
 
