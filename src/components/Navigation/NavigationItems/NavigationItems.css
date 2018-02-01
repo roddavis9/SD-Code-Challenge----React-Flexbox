@@ -40,13 +40,25 @@
 }
 
 @media (min-width: 1171px) {
-
+    .NavigationItems {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }
 
 @media (min-width: 1200px) {
-
+    .NavigationItems {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }
 
 @media (min-width: 1360px) {
-
+    .NavigationItems {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }

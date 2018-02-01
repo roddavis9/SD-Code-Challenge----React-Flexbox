@@ -5,6 +5,7 @@ import classes from './Header.css';
 import Logo from './../Logo/Logo';
 import NavigationItems from './../Navigation/NavigationItems/NavigationItems';
 import Backdrop from './../UI/Backdrop/Backdrop';
+import SideDrawer from './../Navigation/SideDrawer/SideDrawer';
 
 class Header extends Component {
 
@@ -57,6 +58,7 @@ render() {
                 </div>
                 <div>
                     <Backdrop show={this.state.toggleSideDrawer} clicked={this.toggleSideDrawerHandler}/>
+                    <SideDrawer open={this.state.toggleSideDrawer} closed={this.toggleSideDrawerHandler}/>
                 </div>
             </div>
         )
